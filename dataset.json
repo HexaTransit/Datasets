@@ -93,7 +93,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/api/1/datasets/r/99f29f9e-0dee-473d-9f9c-188e9d1ce9e5",
+        "source": "https://chouette.enroute.mobi/api/v1/datas/opendata/gtfs.zip",
         "feedId": "fr-tadao",
         "reference": "https://transport.data.gouv.fr/datasets/gtfs-tadao"
     },
@@ -1114,7 +1114,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/0fd67eb8-24a4-4ae0-b98b-b442f74244e1",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/b587f007-9b23-4b2a-a609-9368a4c2c490",
         "feedId": "fr-tea",
         "reference": "https://transport.data.gouv.fr/datasets/arrets-lignes-regulieres-reseau-de-transport-urbain-a-autun"
     },
@@ -1468,7 +1468,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/api/1/datasets/r/c3e30627-ab57-4608-98e6-e5ebe439ff30",
+        "source": "https://s3.eu-west-1.amazonaws.com/files.orchestra.ratpdev.com/networks/rdbm/exports/medias.zip",
         "feedId": "fr-beemob",
         "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-de-transports-beemob-beziers-mediterranee"
     },
@@ -1504,7 +1504,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/3a917f56-ef8f-428d-8608-bb904952dead",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/d0579894-2c5a-42c1-a44c-d550af952f49",
         "feedId": "fr-la-navette-gaillac",
         "reference": "https://transport.data.gouv.fr/datasets/reseau-urbain-la-navette-commune-de-gaillac"
     },
