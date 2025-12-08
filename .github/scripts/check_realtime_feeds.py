@@ -68,6 +68,7 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
                 content_type = response.headers.get('Content-Type', '')
                 content_length = response.headers.get('Content-Length', 'unknown')
                 
+                # 200 OK - normal success
                 if status_code == 200:
                     # Read a small sample to verify it's not an error page
                     content_sample = response.read(1024)
@@ -86,6 +87,9 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
                             return True, f"OK ({content_type}, {content_length} bytes)", status_code
                     else:
                         return False, "Empty response", status_code
+                # 204 No Content - valid for realtime feeds with no current updates
+                elif status_code == 204:
+                    return True, f"OK (No Content - no updates available)", status_code
                 else:
                     return False, f"HTTP {status_code}", status_code
                     
