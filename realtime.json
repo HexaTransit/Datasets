@@ -19,7 +19,7 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/sncf-all-gtfs-rt-trip-updates",
+            "url": "https://proxy.transport.data.gouv.fr/resource/sncf-gtfs-rt-trip-updates",
             "feedId": "fr-sncf"
         },
         {
@@ -1069,12 +1069,6 @@
         },
 
         {
-            "type": "real-time-alerts",
-            "frequency": "2m",
-            "url": "https://dashboard.transitapp.com/api/alerts/auxerre",
-            "feedId": "fr-leo"
-        },
-        {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
@@ -1484,7 +1478,7 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.mlt4.cityway.fr/dataflow/horaire-tr/download?provider=ROANNE&dataFormat=GTFS-RT&dataProfil=OPENDATA",
+            "url": "https://api.oura3.cityway.fr/dataflow/horaire-tr/download?provider=STAR&dataFormat=gtfs-rt",
             "feedId": "fr-star-rhone"
         },
 
@@ -1568,7 +1562,7 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.mlt4.cityway.fr/dataflow/horaire-tr/download?provider=MIRIBEL&dataFormat=GTFS-RT&dataProfil=OPENDATA",
+            "url": "https://api.oura3.cityway.fr/dataflow/realtime/stop-monitoring?Provider=COLIBRI&DataFormat=GTFS-RT",
             "feedId": "fr-colibri-rhone"
         },
 
@@ -1634,13 +1628,6 @@
             "frequency": "1m",
             "url": "https://feed-rdtpm-toulon.ratpdev.com/VehiclePosition/GTFS-RT",
             "feedId": "fr-mistral"
-        },
-
-        {
-            "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://export.tcra2.cityway.fr/GtfsRt/GtfsRT.TCRA.pb",
-            "feedId": "fr-orizo"
         },
 
         {
