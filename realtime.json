@@ -1,0 +1,2478 @@
+{
+    "updaters": [
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "http://gtfsidfm.clarifygdps.com/gtfs-rt-trips-idfm",
+            "feedId": "fr-idf"
+        },
+        {
+            "type": "real-time-alerts",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "http://gtfsidfm.clarifygdps.com/gtfs-rt-alerts-idfm",
+            "feedId": "fr-idf"
+        },
+    
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/sncf-all-gtfs-rt-trip-updates",
+            "feedId": "fr-sncf"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/sncf-gtfs-rt-service-alerts",
+            "feedId": "fr-sncf"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/ilevia-lille-gtfs-rt",
+            "feedId": "fr-ilevia"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-alerts",
+            "feedId": "fr-ametis"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-trip-update",
+            "feedId": "fr-ametis"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-vehicle-position",
+            "feedId": "fr-ametis"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=sitac-calais-rt",
+            "feedId": "fr-sitac"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=sitac-calais-rt",
+            "feedId": "fr-sitac"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=sitac-calais-rt",
+            "feedId": "fr-sitac"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/marineo-boulonnais-gtfs-rt-alerts",
+            "feedId": "fr-marineo"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/marineo-boulonnais-gtfs-rt-trip-update",
+            "feedId": "fr-marineo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=COROLIS_INT&dataFormat=gtfs-rt",
+            "feedId": "fr-corolis"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=COROLIS_INT&dataFormat=gtfs-rt",
+            "feedId": "fr-corolis"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=AXO&dataFormat=gtfs-rt",
+            "feedId": "fr-axo"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=AXO&dataFormat=gtfs-rt",
+            "feedId": "fr-axo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=CYPRE&dataFormat=gtfs-rt",
+            "feedId": "fr-cypre"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=CYPRE&dataFormat=gtfs-rt",
+            "feedId": "fr-cypre"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=PASSTHELLE&dataFormat=gtfs-rt",
+            "feedId": "fr-pass-thelle"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=PASSTHELLE&dataFormat=gtfs-rt",
+            "feedId": "fr-pass-thelle"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=SABLONS&dataFormat=gtfs-rt",
+            "feedId": "fr-sablons"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=SABLONS&dataFormat=gtfs-rt",
+            "feedId": "fr-sablons"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=DUC&dataFormat=gtfs-rt",
+            "feedId": "fr-duc"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=DUC&dataFormat=gtfs-rt",
+            "feedId": "fr-duc"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=LANAVETTE&dataFormat=gtfs-rt",
+            "feedId": "fr-la-navette"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=LANAVETTE&dataFormat=gtfs-rt",
+            "feedId": "fr-la-navette"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=TOHM&dataFormat=gtfs-rt",
+            "feedId": "fr-tohm"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TOHM&dataFormat=gtfs-rt",
+            "feedId": "fr-tohm"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=LIBBUS&dataFormat=gtfs-rt",
+            "feedId": "fr-libbus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=LIBBUS&dataFormat=gtfs-rt",
+            "feedId": "fr-libbus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=LEBUS&dataFormat=gtfs-rt",
+            "feedId": "fr-lebus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=LEBUS&dataFormat=gtfs-rt",
+            "feedId": "fr-lebus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=HOPLA&dataFormat=gtfs-rt",
+            "feedId": "fr-hopla"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=HOPLA&dataFormat=gtfs-rt",
+            "feedId": "fr-hopla"
+        },
+
+
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-citura-reims-gtfs-rt",
+            "feedId": "fr-grand-reims"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-solea-mulhouse-gtfs-rt-service-alert",
+            "feedId": "fr-solea"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-solea-muhlouse-gtfs-rt-trip-update",
+            "feedId": "fr-solea"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-sub-nancy-gtfs-rt-trip-update",
+            "feedId": "fr-sub"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/lemet-metz-gtfs-rt-service-alert",
+            "feedId": "fr-lemet"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/lemet-metz-gtfs-rt-trip-update",
+            "feedId": "fr-lemet"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/lemet-metz-gtfs-rt-vehicle-position",
+            "feedId": "fr-lemet"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://transport.data.gouv.fr/resources/81542/download",
+            "feedId": "fr-tcat"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://transport.data.gouv.fr/resources/81544/download",
+            "feedId": "fr-tcat"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://transport.data.gouv.fr/resources/81543/download",
+            "feedId": "fr-tcat"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-tac-ardenne-gtfs-rt",
+            "feedId": "fr-tac"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-imagine-epinal-gtfs-rt-trip-update",
+            "feedId": "fr-imagine"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-sitac-chalons-gtfs-rt-trip-update",
+            "feedId": "fr-sitac-grandest"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/luneo/gtfs-rt",
+            "feedId": "fr-luneo"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/luneo/gtfs-rt",
+            "feedId": "fr-luneo"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/luneo/gtfs-rt",
+            "feedId": "fr-luneo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/tgl-longwy-gtfs-rt-trip-update",
+            "feedId": "fr-tgl"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/tgl-longwy-gtfs-rt-vehicle-position",
+            "feedId": "fr-tgl"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-sylvia-stdie-des-vosges-gtfs-rt-service-alert",
+            "feedId": "fr-sylvia"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-sylvia-stdie-des-vosges-gtfs-rt-trip-update",
+            "feedId": "fr-sylvia"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-distribus-stlouis-gtfs-rt-trip-update",
+            "feedId": "fr-distribus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-transavold-saint-avold-gtfs-rt",
+            "feedId": "fr-transavold"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-mouveo-eprenay-gtfs-rt-trip-update",
+            "feedId": "fr-mouveo-grandest"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-colibri-terres-touloises-gtfs-rt-trip-update",
+            "feedId": "fr-colibri"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-lebus-pontamousson-gtfs-rt",
+            "feedId": "fr-lebus-grandest"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-tub-bar-le-duc-gtfs-rt",
+            "feedId": "fr-tub"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-tis-selestat-gtfs-rt-trip-update",
+            "feedId": "fr-tis"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=sel-et-vermois",
+            "feedId": "fr-navette-sel-et-vernois"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=sel-et-vermois",
+            "feedId": "fr-navette-sel-et-vernois"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=sel-et-vermois",
+            "feedId": "fr-navette-sel-et-vernois"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-passo-obernai-gtfs-rt-trip-update",
+            "feedId": "fr-passo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/fluo-rezo-verdun-gtfs-rt-trip-update",
+            "feedId": "fr-rezo"
+        },
+
+
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://www.reseau-astuce.fr/ftp/gtfsrt/Astuce.TripUpdate.pb",
+            "feedId": "fr-astuce"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://www.reseau-astuce.fr/ftp/gtfsrt/Astuce.VehiclePosition.pb",
+            "feedId": "fr-astuce"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/astuce-26-30-rouen-gtfs-rt-trip-update",
+            "feedId": "fr-astuce-plus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/astuce-26-30-rouen-gtfs-rt-vehicle-position",
+            "feedId": "fr-astuce-plus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://gtfs.tae76.fr/gtfs-rt.bin",
+            "feedId": "fr-astuce-elbeuf"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/transdev-cotentin/gtfs-rt",
+            "feedId": "fr-capcotentin"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/transdev-cotentin/gtfs-rt",
+            "feedId": "fr-capcotentin"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/caux-seine-agglo/gtfs-rt",
+            "feedId": "fr-rezobus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/caux-seine-agglo/gtfs-rt",
+            "feedId": "fr-rezobus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/caux-seine-agglo/gtfs-rt",
+            "feedId": "fr-rezobuss"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/astrobus-lisieux-gtfs-rt-trip-update",
+            "feedId": "fr-astrobus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/astrobus-lisieux-gtfs-rt-vehicle-position",
+            "feedId": "fr-astrobus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/sngo-vernon-gtfs-rt-trip-update",
+            "feedId": "fr-sngo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/flers-nemus-gtfs-rt-trip-update",
+            "feedId": "fr-nemus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/flers-nemus-gtfs-rt-vehicle-position",
+            "feedId": "fr-nemus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=bernay",
+            "feedId": "fr-lbus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=bernay",
+            "feedId": "fr-lbus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=bernay",
+            "feedId": "fr-lbus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=granville",
+            "feedId": "fr-neva"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=granville",
+            "feedId": "fr-neva"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=granville",
+            "feedId": "fr-neva"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/deepmob-dieppe-gtfs-rt-trip-update",
+            "feedId": "fr-deepmob"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/hobus-honfleur-gtfs-rt-trip-update",
+            "feedId": "fr-hobus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/hobus-honfleur-gtfs-rt-vehicle-position",
+            "feedId": "fr-hobus"
+        },
+
+
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://www.korrigo.bzh/ftp/OPENDATA/gtfsrt/BREIZHGO_CAR_RLP.GtfsRt.pb",
+            "feedId": "fr-breitzgo-car-rennes-pontivy"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://www.korrigo.bzh/ftp/OPENDATA/gtfsrt/BREIZHGO_CAR_35.GtfsRt.pb",
+            "feedId": "fr-breitzgo-car-35"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://www.korrigo.bzh/ftp/OPENDATA/gtfsrt/TIBUS.GtfsRt.pb",
+            "feedId": "fr-breitzgo-car-22"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/star-rennes-integration-gtfs-rt-alerts",
+            "feedId": "fr-star"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/star-rennes-integration-gtfs-rt-trip-update",
+            "feedId": "fr-star"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/star-rennes-integration-gtfs-rt-vehicle-position",
+            "feedId": "fr-star"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/bibus-brest-gtfs-rt-alerts",
+            "feedId": "fr-bibus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/bibus-brest-gtfs-rt-trip-update",
+            "feedId": "fr-bibus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/bibus-brest-gtfs-rt-vehicle-position",
+            "feedId": "fr-bibus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/ctrl-lorient-gtfs-rt-alerts",
+            "feedId": "fr-izilo"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://feed-rdla-lorient.ratpdev.com/GTFS-RT",
+            "feedId": "fr-izilo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/kiceo-vannes-gtfs-rt-trip-update",
+            "feedId": "fr-kiceo"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/kiceo-vannes-gtfs-rt-vehicle-position",
+            "feedId": "fr-kiceo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=quimper",
+            "feedId": "fr-qub-navette"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=quimper",
+            "feedId": "fr-qub-navette"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://www.korrigo.bzh/ftp/OPENDATA/gtfsrt/TILT.GtfsRt.pb",
+            "feedId": "fr-tilt"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/axeo-guingamp-gtfs-rt-trip-update",
+            "feedId": "fr-guingamp-paimpol"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/axeo-guingamp-gtfs-rt-vehicle-position",
+            "feedId": "fr-guingamp-paimpol"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://transport.data.gouv.fr/resources/82597/download",
+            "feedId": "fr-distribus-bretagne"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://transport.data.gouv.fr/resources/82596/download",
+            "feedId": "fr-distribus-bretagne"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/surf-fougeres-gtfs-rt-trip-update",
+            "feedId": "fr-surf"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/surf-fougeres-gtfs-rt-vehicle-position",
+            "feedId": "fr-surf"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/quimperle/gtfs-rt",
+            "feedId": "fr-tbk"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/quimperle/gtfs-rt",
+            "feedId": "fr-tbk"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/quimperle/gtfs-rt",
+            "feedId": "fr-tbk"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://www.korrigo.bzh/ftp/OPENDATA/gtfsrt/ARBUS.GtfsRt.pb",
+            "feedId": "fr-arbus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/pondibus/gtfs-rt",
+            "feedId": "fr-pondibus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/pondibus/gtfs-rt",
+            "feedId": "fr-pondibus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/pondibus/gtfs-rt",
+            "feedId": "fr-pondibus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/aleop-pdl-gtfs-rt-alerts",
+            "feedId": "fr-aleop"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/aleop-pdl-gtfs-rt-trip-update",
+            "feedId": "fr-aleop"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/aleop-pdl-gtfs-rt-vehicle-position",
+            "feedId": "fr-aleop"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://notify.ratpdev.com/api/networks/RD%20TPM/alerts/gtfsrt",
+            "feedId": "fr-irigo"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://ara-api.enroute.mobi/irigo/gtfs/trip-updates",
+            "feedId": "fr-irigo"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://ara-api.enroute.mobi/irigo/gtfs/vehicle-positions",
+            "feedId": "fr-irigo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/setram-lemans-gtfs-rt-trip-update",
+            "feedId": "fr-setram"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/illygo/gtfs-rt",
+            "feedId": "fr-illygo"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/illygo/gtfs-rt",
+            "feedId": "fr-illygo"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://app.mecatran.com/utw/ws/gtfsfeed/alerts/choletbus?apiKey=0b0f0b6035007b7f1243311973401c294e6a0143",
+            "feedId": "fr-choletbus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://app.mecatran.com/utw/ws/gtfsfeed/realtime/choletbus?apiKey=0b0f0b6035007b7f1243311973401c294e6a0143",
+            "feedId": "fr-choletbus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/la-roche-sur-yon-ct-gtfs-rt-alerts",
+            "feedId": "fr-impulsyon"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=maybus",
+            "feedId": "fr-maybus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=maybus",
+            "feedId": "fr-maybus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=maybus",
+            "feedId": "fr-maybus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/transdev-8z2Q/gtfs-rt",
+            "feedId": "fr-reso"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/transdev-8z2Q/gtfs-rt",
+            "feedId": "fr-reso"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/transdev-8z2Q/gtfs-rt",
+            "feedId": "fr-reso"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/brevibus/gtfs-rt",
+            "feedId": "fr-brevibus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/brevibus/gtfs-rt",
+            "feedId": "fr-brevibus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/brevibus/gtfs-rt",
+            "feedId": "fr-brevibus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://data.filbleu.fr/ws-tr/gtfs-rt/opendata/service-alerts",
+            "feedId": "fr-filbleu"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://data.filbleu.fr/ws-tr/gtfs-rt/opendata/trip-updates",
+            "feedId": "fr-filbleu"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://data.filbleu.fr/ws-tr/gtfs-rt/opendata/vehicle-positions",
+            "feedId": "fr-filbleu"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://ara-api.enroute.mobi/tao/gtfs/trip-updates",
+            "feedId": "fr-tao"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/vendome/gtfs-rt",
+            "feedId": "fr-move"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/vendome/gtfs-rt",
+            "feedId": "fr-move"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/vendome/gtfs-rt",
+            "feedId": "fr-move"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/le-vib-vierzon-gtfs-rt-alerts",
+            "feedId": "fr-levib"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/le-vib-vierzon-gtfs-rt-trip-update",
+            "feedId": "fr-levib"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/le-vib-vierzon-gtfs-rt-vehicle-position",
+            "feedId": "fr-levib"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/nosbus/gtfs-rt",
+            "feedId": "fr-nosbus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/nosbus/gtfs-rt",
+            "feedId": "fr-nosbus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/nosbus/gtfs-rt",
+            "feedId": "fr-nosbus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/divia-dijon-gtfs-rt-trip-update",
+            "feedId": "fr-diviamobilite"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/divia-dijon-gtfs-rt-vehicle-position",
+            "feedId": "fr-diviamobilite"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://dashboard.transitapp.com/api/alerts/auxerre",
+            "feedId": "fr-leo"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://leo.plateforme-2cloud.com/api/gtfsrt/2.0/tripUpdates/LEO-6547-2543-6895?&format=bin&network=AURMLEBUS",
+            "feedId": "fr-leo"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://leo.plateforme-2cloud.com/api/gtfsrt/2.0/vehiclepositions/LEO-6547-2543-6895/json=AURMLEBUS",
+            "feedId": "fr-leo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/tgd-dole-gtfs-rt-trip-update",
+            "feedId": "fr-grandole-mobilite"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/tgd-dole-gtfs-rt-vehicle-position",
+            "feedId": "fr-grandole-mobilite"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/moova-vesoul-gtfs-rt-trip-update",
+            "feedId": "fr-moova"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/moova-vesoul-gtfs-rt-vehicle-position",
+            "feedId": "fr-moova"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=bordeaux-navettes-aeroport",
+            "feedId": "fr-aeroport-bordeaux"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=bordeaux-navettes-aeroport",
+            "feedId": "fr-aeroport-bordeaux"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=bordeaux-navettes-aeroport",
+            "feedId": "fr-aeroport-bordeaux"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://bdx.mecatran.com/utw/ws/gtfsfeed/alerts/bordeaux?apiKey=opendata-bordeaux-metropole-flux-gtfs-rt",
+            "feedId": "fr-tbm"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://bdx.mecatran.com/utw/ws/gtfsfeed/realtime/bordeaux?apiKey=opendata-bordeaux-metropole-flux-gtfs-rt",
+            "feedId": "fr-tbm"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://bdx.mecatran.com/utw/ws/gtfsfeed/vehicles/bordeaux?apiKey=opendata-bordeaux-metropole-flux-gtfs-rt",
+            "feedId": "fr-tbm"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://app.mecatran.com/utw/ws/gtfsfeed/alerts/txiktxak?apiKey=0f64273f070b7d4621002040646e180d374e5373",
+            "feedId": "fr-txik-txak"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://app.mecatran.com/utw/ws/gtfsfeed/realtime/txiktxak?apiKey=0f64273f070b7d4621002040646e180d374e5373",
+            "feedId": "fr-txik-txak"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://data.grandpoitiers.fr/data-fair/api/v1/datasets/2gwvlq16siyb7d9m3rqt1pb1/metadata-attachments/poitiers.pbf",
+            "feedId": "fr-vitalis"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/mobius-angouleme",
+            "feedId": "fr-mobius"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://urldefense.com/v3/__https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=agen-scolaire__;!!GXVuaUlRqA!aP1rnhWBNoKP6uStLU2TfthgAipcY9qdn_A_68IeuGnuVnTxm-jRYTvXwJGm5Dbawfr9VBhW7Gx6bfpuE8Bd4PP5VhDwhtE$",
+            "feedId": "fr-tempo-sco"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://urldefense.com/v3/__https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=agen-scolaire__;!!GXVuaUlRqA!aP1rnhWBNoKP6uStLU2TfthgAipcY9qdn_A_68IeuGnuVnTxm-jRYTvXwJGm5Dbawfr9VBhW7Gx6bfpuE8Bd4PP5VhDwhtE$",
+            "feedId": "fr-tempo-sco"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://urldefense.com/v3/__https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=agen-urbain__;!!GXVuaUlRqA!aP1rnhWBNoKP6uStLU2TfthgAipcY9qdn_A_68IeuGnuVnTxm-jRYTvXwJGm5Dbawfr9VBhW7Gx6bfpuE8Bd4PP5glcwziM$",
+            "feedId": "fr-tempo"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://urldefense.com/v3/__https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=agen-urbain__;!!GXVuaUlRqA!aP1rnhWBNoKP6uStLU2TfthgAipcY9qdn_A_68IeuGnuVnTxm-jRYTvXwJGm5Dbawfr9VBhW7Gx6bfpuE8Bd4PP5glcwziM$",
+            "feedId": "fr-tempo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://grand-chatellerault.plateforme-2cloud.com/api/gtfsrt/2.0/tripupdates/GCH-0910-7677-1418/bin",
+            "feedId": "fr-tac-na"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=buss-cdasaintes",
+            "feedId": "fr-buss"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=buss-cdasaintes",
+            "feedId": "fr-buss"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=oloron",
+            "feedId": "fr-oloron-sainte-marie"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=oloron",
+            "feedId": "fr-oloron-sainte-marie"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=oloron",
+            "feedId": "fr-oloron-sainte-marie"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=iledere75923021",
+            "feedId": "fr-respire"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=iledere75923021",
+            "feedId": "fr-respire"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=iledere75923021",
+            "feedId": "fr-sarlat"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=iledere75923021",
+            "feedId": "fr-sarlat"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://data.montpellier3m.fr/TAM_MMM_GTFSRT/Alert.pb",
+            "feedId": "fr-tam"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://data.montpellier3m.fr/TAM_MMM_GTFSRT/TripUpdate.pb",
+            "feedId": "fr-tam"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://data.montpellier3m.fr/TAM_MMM_GTFSRT/VehiclePosition.pb",
+            "feedId": "fr-tam"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=sankeo-scolaire",
+            "feedId": "fr-sakeo-sco"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=sankeo-scolaire",
+            "feedId": "fr-sakeo-sco"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://transport.data.gouv.fr/resources/80731/download",
+            "feedId": "fr-tango"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://transport.data.gouv.fr/resources/80732/download",
+            "feedId": "fr-tango"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://alesy.plateforme-2cloud.com/api/gtfsrt/tripupdates/ALESY-6574-4401-7572/bin",
+            "feedId": "fr-alesy"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=tlp-mobilites",
+            "feedId": "fr-tlp"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=tlp-mobilites",
+            "feedId": "fr-tlp"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://sete.ceccli.com/gtfs/Alerts.pb",
+            "feedId": "fr-sete"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://sete.ceccli.com/gtfs/TripUpdates.pb",
+            "feedId": "fr-sete"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://sete.ceccli.com/gtfs/VehiclePositions.pb",
+            "feedId": "fr-sete"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=agdecapbus68429531",
+            "feedId": "fr-capbus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=agdecapbus68429531",
+            "feedId": "fr-capbus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=auch-alliance",
+            "feedId": "fr-alliance"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=auch-alliance",
+            "feedId": "fr-alliance"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=auch-alliance",
+            "feedId": "fr-alliance"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/transpor-gtfs-rt-trip-update",
+            "feedId": "fr-transpor"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/transpor-gtfs-rt-vehicle-position",
+            "feedId": "fr-transpor"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=figeac",
+            "feedId": "fr-figeac"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=figeac",
+            "feedId": "fr-figeac"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://www.itinisere.fr/ftp/gtfsrt/GtfsRT.Disruptions.CG38.pb",
+            "feedId": "fr-isere"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://www.itinisere.fr/ftp/GtfsRT/GtfsRT.CG38.pb",
+            "feedId": "fr-isere"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://opendata.clermontmetropole.eu/explore/dataset/gtfsrt_tripupdates/files/2c6b5c63d7be78905779d28500e6ab7e/download/",
+            "feedId": "fr-t2c"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://opendata.clermontmetropole.eu/explore/dataset/gtfsrt_tripupdates/files/2c6b5c63d7be78905779d28500e6ab7e/download/",
+            "feedId": "fr-t2c-sco"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/synchrobus-chambery-gtfs-rt-service-alert",
+            "feedId": "fr-synchrobus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/synchrobus-chambery-gtfs-rt-trip-update",
+            "feedId": "fr-synchrobus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.mlt4.cityway.fr/dataflow/horaire-tr/download?provider=ROANNE&dataFormat=GTFS-RT&dataProfil=OPENDATA",
+            "feedId": "fr-star-rhone"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/annemasse-tp2a-gtfs-rt-alerts",
+            "feedId": "fr-tac-rhone"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/tac-annemasse-gtfs-rt-trip-update",
+            "feedId": "fr-tac-rhone"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://notify.ratpdev.com/api/networks/VIENNE%20MOBI/alerts/gtfsrt",
+            "feedId": "fr-lva"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://feed-vienne-mobi.ratpdev.com/GTFS-RT/gtfs-rt.bin",
+            "feedId": "fr-lva"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/ondea-aix-les-bains-gtfs-rt-alerts",
+            "feedId": "fr-ondea"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/ondea-aix-les-bains-gtfs-rt-trip-update",
+            "feedId": "fr-ondea"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=agglopaysdissoire",
+            "feedId": "fr-cherpa"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=agglopaysdissoire",
+            "feedId": "fr-cherpa"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://gtfs-rt.infra-hubup.fr/toutenbus/realtime",
+            "feedId": "fr-toutenbus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://gtfs-rt.infra-hubup.fr/toutenbus/realtime",
+            "feedId": "fr-toutenbus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://gtfs-rt.infra-hubup.fr/toutenbus/realtime",
+            "feedId": "fr-toutenbus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.mlt4.cityway.fr/dataflow/horaire-tr/download?provider=MIRIBEL&dataFormat=GTFS-RT&dataProfil=OPENDATA",
+            "feedId": "fr-colibri-rhone"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=tignes",
+            "feedId": "fr-navette-tignes"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=tignes",
+            "feedId": "fr-navette-tignes"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=alpe-huez",
+            "feedId": "fr-hivernale-huez"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=alpe-huez",
+            "feedId": "fr-hivernale-huez"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/region-sud-zou-proximite-gtfs-rt-trip-update",
+            "feedId": "fr-zou"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/region-sud-zou-express-gtfs-rt-trip-update",
+            "feedId": "fr-zou-express"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://notify.ratpdev.com/api/networks/RD%20TPM/alerts/gtfsrt",
+            "feedId": "fr-mistral"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://feed-rdtpm-toulon.ratpdev.com/TripUpdate/GTFS-RT",
+            "feedId": "fr-mistral"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://feed-rdtpm-toulon.ratpdev.com/VehiclePosition/GTFS-RT",
+            "feedId": "fr-mistral"
+        },
+
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://export.tcra2.cityway.fr/GtfsRt/GtfsRT.TCRA.pb",
+            "feedId": "fr-orizo"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/palmbus-cannes-gtfs-rt-service-alert",
+            "feedId": "fr-palmbus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/palmbus-cannes-gtfs-rt-trip-update",
+            "feedId": "fr-palmbus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/palmbus-cannes-gtfs-rt-vehicle-position",
+            "feedId": "fr-palmbus"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/draguignan/gtfs-rt",
+            "feedId": "fr-tedbus"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/draguignan/gtfs-rt",
+            "feedId": "fr-tedbus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/draguignan/gtfs-rt",
+            "feedId": "fr-tedbus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://accm.2cloud.app/api/gtfsrt/2.0/tripupdates/LUMIPLAN-2021-4815-1108/bin",
+            "feedId": "fr-envia"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/zest-menton-riviera-gtfs-rt-trip-update",
+            "feedId": "fr-zest"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://proxy.transport.data.gouv.fr/resource/zest-menton-riviera-gtfs-rt-vehicle-position",
+            "feedId": "fr-zest"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/cavalaire-h/gtfs-rt",
+            "feedId": "fr-calavaire"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/cavalaire-h/gtfs-rt",
+            "feedId": "fr-calavaire"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/suma-22ua/gtfs-rt",
+            "feedId": "fr-navette-grimaud"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://pysae.com/api/v2/groups/st-tropez/gtfs-rt",
+            "feedId": "fr-saint-tropez"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://pysae.com/api/v2/groups/st-tropez/gtfs-rt",
+            "feedId": "fr-saint-tropez"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=cavaillon",
+            "feedId": "fr-cmonbus-provence"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=cavaillon",
+            "feedId": "fr-cmonbus-provence"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://gtfs-rt.infra-hubup.fr/cagtd/realtime",
+            "feedId": "fr-aggloenbus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://gtfs-rt.infra-hubup.fr/cagtd/realtime",
+            "feedId": "fr-aggloenbus"
+        },
+
+
+
+
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_JoshinKankoBus_AllLines_trip_update",
+            "feedId": "jp-joshin-kanko-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_JoshinKankoBus_AllLines_vehicle",
+            "feedId": "jp-joshin-kanko-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_JoshinKankoBus_AllLines_alert",
+            "feedId": "jp-joshin-kanko-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_SentetsuBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-sentetsu-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_SentetsuBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-sentetsu-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_KeiseiTransitBus_AllLines_trip_update",
+            "feedId": "jp-keisei-transit-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_KeiseiTransitBus_AllLines_vehicle",
+            "feedId": "jp-keisei-transit-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_KeiseiTransitBus_AllLines_alert",
+            "feedId": "jp-keisei-transit-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreast_odpt_train_trip_update?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "feedId": "jp-jreast-tokyo-area"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreast_odpt_train_vehicle?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "feedId": "jp-jreast-tokyo-area"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreis_odpt_train_alert?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "feedId": "jp-keisei-transit-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_trip_update?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "feedId": "jp-tobu-train"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_vehicle?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "feedId": "jp-tobu-train"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_alert?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "feedId": "jp-tobu-train"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_trip_update",
+            "feedId": "jp-aomori-city"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_vehicle",
+            "feedId": "jp-aomori-city"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_alert",
+            "feedId": "jp-aomori-city"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_trip_update",
+            "feedId": "jp-nagai-transportation"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_vehicle",
+            "feedId": "jp-nagai-transportation"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_alert",
+            "feedId": "jp-nagai-transportation"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-iyotetsu-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-iyotetsu-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-iyotetsu-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-yokohama-municipal-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-yokohama-municipal-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-yokohama-municipal-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-yokohama-municipal-train"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-yokohama-municipal-train"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-yokohama-municipal-train"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NipponChuoBus_Maebashi_Area_trip_update",
+            "feedId": "jp-nippon-chuo-bus-maebashi-area"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NipponChuoBus_Maebashi_Area_vehicle",
+            "feedId": "jp-nippon-chuo-bus-maebashi-area"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NipponChuoBus_Maebashi_Area_alert",
+            "feedId": "jp-nippon-chuo-bus-maebashi-area"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmachuoBus_AllLines_trip_update",
+            "feedId": "jp-gunmachuo-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmachuoBus_AllLines_vehicle",
+            "feedId": "jp-gunmachuo-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmachuoBus_AllLines_alert",
+            "feedId": "jp-gunmachuo-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_Kan_etsuTransportation_AllLines_trip_update",
+            "feedId": "jp-kan-etsu-transportation"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_Kan_etsuTransportation_AllLines_vehicle",
+            "feedId": "jp-kan-etsu-transportation"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_Kan_etsuTransportation_AllLines_alert",
+            "feedId": "jp-kan-etsu-transportation"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmaBus_AllLines_trip_update",
+            "feedId": "jp-gunma-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmaBus_AllLines_vehicle",
+            "feedId": "jp-gunma-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmaBus_AllLines_alert",
+            "feedId": "jp-gunma-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kawasaki-tsurumi-rinko-bus-allrinko"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kawasaki-tsurumi-rinko-bus-allrinko"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kawasaki-tsurumi-rinko-bus-allrinko"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_TokyoSuginamiCity_GreenSlowMobility_trip_update",
+            "feedId": "jp-tokyo-suginami-city-green-slow-mobility"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_TokyoSuginamiCity_GreenSlowMobility_vehicle",
+            "feedId": "jp-tokyo-suginami-city-green-slow-mobility"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_trip_update",
+            "feedId": "jp-hakodate-city"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_vehicle",
+            "feedId": "jp-hakodate-city"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_alert",
+            "feedId": "jp-hakodate-city"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-akiha-bus-service"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-akiha-bus-service"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-shimoden-shimoden-bus-gtfs-realtime"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-shimoden-shimoden-bus-gtfs-realtime"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-shimoden-shimoden-bus-gtfs-realtime"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-shimoden-shimoden-gtfs-static"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-shimoden-shimoden-gtfs-static"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-shimoden-shimoden-gtfs-static"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_UnoBus_AllLines_trip_update",
+            "feedId": "jp-uno-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_UnoBus_AllLines_vehicle",
+            "feedId": "jp-uno-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_UnoBus_AllLines_alert",
+            "feedId": "jp-uno-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kyoto-bus-anotherversion"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kyoto-bus-anotherversion"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kyoto-bus-anotherversion"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-nishi-tokyo-bus-nt-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-nishi-tokyo-bus-nt-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-nishi-tokyo-bus-nt-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kyoto-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kyoto-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kyoto-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-izuhakone-bus-izhb"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-izuhakone-bus-izhb"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-izuhakone-bus-izhb"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-hokkaido-takushoku-bus-takusyoku-regular-line"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-hokkaido-takushoku-bus-takusyoku-regular-line"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/mir_odpt_train_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-train-mir"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/tamamonorail_odpt_train_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-train-tamamonorail"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/tokyometro_odpt_train_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-train-tokyometro"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/twr_odpt_train_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-train-twr"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_trip_update",
+            "feedId": "jp-train-toei"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_vehicle",
+            "feedId": "jp-train-toei"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_alert",
+            "feedId": "jp-train-toei"
+        },
+
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/ToeiBus",
+            "feedId": "jp-b-bus-gtfs-jp-toei"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TokaiKisen_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-tokai-kisen"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kanto-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kanto-bus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-kanto-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/SeibuBus_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-seibu-bus--b-bus-gtfs"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/SeibuBus_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-seibu-bus--b-bus-gtfs"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_KeifukuBus_keifuku_rosen_trip_update",
+            "feedId": "jp-keifuku-bus-keifuku-rosen"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_KeifukuBus_keifuku_rosen_vehicle",
+            "feedId": "jp-keifuku-bus-keifuku-rosen"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_KeifukuBus_keifuku_rosen_alert",
+            "feedId": "jp-keifuku-bus-keifuku-rosen"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_KiyoseCity_KiyoBus_trip_update",
+            "feedId": "jp-kiyose-city-kiyo-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_KiyoseCity_KiyoBus_vehicle",
+            "feedId": "jp-kiyose-city-kiyo-bus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-transportation-bureau-city-of-kawasaki"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-transportation-bureau-city-of-kawasaki"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-transportation-bureau-city-of-kawasaki"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "2m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-keio-bus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "1m",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "feedId": "jp-keio-bus"
+        }
+    ],
+    "routingDefaults": {
+        "modes": "TRANSIT"
+    },
+    "flex" : {
+        "maxTransferDuration" : "5m",
+        "maxFlexTripDuration" : "45m",
+        "maxAccessWalkDuration" : "15m",
+        "maxEgressWalkDuration" : "15m"
+    }
+}
