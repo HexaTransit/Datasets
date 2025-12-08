@@ -5,6 +5,8 @@ on:
     branches: ["*"]
   pull_request:
     branches: ["*"]
+  schedule:
+    - cron: '0 0 * * *'  # Run at midnight (00:00 UTC) every day
 
 jobs:
   gtfs-check:
