@@ -162,11 +162,13 @@ def check_feed(feed: Dict, index: int, total: int) -> Dict:
     """
     feed_id = feed.get('feedId', f'feed-{index}')
     source_url = feed.get('source', 'N/A')
+    reference_url = feed.get('reference', 'N/A')
     
     result = {
         'index': index,
         'feedId': feed_id,
         'source': source_url,
+        'reference': reference_url,
         'structure_valid': True,
         'structure_errors': [],
         'url_success': False,
@@ -250,9 +252,11 @@ def main():
             print(f"  {Colors.RED}✗ Structure Error:{Colors.RESET}")
             for error in result['structure_errors']:
                 print(f"    - {error}")
+            print(f"  Reference: {result['reference']}")
             failed_feeds.append({
                 'feedId': result['feedId'],
                 'source': result['source'],
+                'reference': result['reference'],
                 'error': '; '.join(result['structure_errors'])
             })
         elif result['url_success']:
@@ -261,9 +265,11 @@ def main():
         else:
             failed += 1
             print(f"  {Colors.RED}✗ {result['url_message']}{Colors.RESET}")
+            print(f"  Reference: {result['reference']}")
             failed_feeds.append({
                 'feedId': result['feedId'],
                 'source': result['source'],
+                'reference': result['reference'],
                 'error': result['url_message']
             })
         
@@ -287,7 +293,8 @@ def main():
         print(f"\n{Colors.RED}{Colors.BOLD}Failed Feeds:{Colors.RESET}")
         for failed_feed in failed_feeds:
             print(f"  • {failed_feed['feedId']}")
-            print(f"    URL: {failed_feed['source']}")
+            print(f"    Source: {failed_feed['source']}")
+            print(f"    Reference: {failed_feed['reference']}")
             print(f"    Error: {failed_feed['error']}")
             print()
     
