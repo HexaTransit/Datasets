@@ -36,13 +36,13 @@ Contains real-time transit feed updaters compatible with OpenTripPlanner:
 - **feedId**: Reference to the corresponding static GTFS feed
 - **frequency**: Update frequency in seconds (optional)
 
-## 🔍 Coverage
+## Coverage
 
 The repository includes transit data from:
 - 🇫🇷 France
 - 🇯🇵 Japan (real-time)
 
-## ✅ Data Validation
+## Data Validation
 
 All feeds are automatically validated before deployment using:
 
@@ -83,7 +83,7 @@ All feeds are automatically validated before deployment using:
 
 3. Create a pull request - automated checks will validate your additions
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To add new transit feeds:
 
