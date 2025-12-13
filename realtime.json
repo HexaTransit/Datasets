@@ -83,13 +83,6 @@
             "url": "https://proxy.transport.data.gouv.fr/resource/marineo-boulonnais-gtfs-rt-alerts",
             "feedId": "fr-marineo"
         },
-        {
-            "type": "stop_time_updater",
-            "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/marineo-boulonnais-gtfs-rt-trip-update",
-            "feedId": "fr-marineo"
-        },
 
         {
             "type": "stop_time_updater",
