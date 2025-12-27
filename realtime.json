@@ -1298,20 +1298,20 @@
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://data.montpellier3m.fr/TAM_MMM_GTFSRT/Alert.pb",
+            "url": "https://data.montpellier3m.fr/GTFS/Urbain/Alert.pb",
             "feedId": "fr-tam"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://data.montpellier3m.fr/TAM_MMM_GTFSRT/TripUpdate.pb",
+            "url": "https://data.montpellier3m.fr/GTFS/Urbain/TripUpdate.pb",
             "feedId": "fr-tam"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://data.montpellier3m.fr/TAM_MMM_GTFSRT/VehiclePosition.pb",
+            "url": "https://data.montpellier3m.fr/GTFS/Urbain/VehiclePosition.pb",
             "feedId": "fr-tam"
         },
 
