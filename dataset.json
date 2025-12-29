@@ -609,7 +609,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/3d1470de-91f7-4d78-8809-790b7ed02662",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/30c460a3-77f7-4ae7-8dfa-4d87cfc2a5f4",
         "feedId": "fr-lbus",
         "reference": "https://transport.data.gouv.fr/datasets/reseau-transport-urbain-de-bernay"
     },
