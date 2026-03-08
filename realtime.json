@@ -56,27 +56,27 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://proxy.transport.data.gouv.fr/resource/ilevia-lille-gtfs-rt",
             "feedId": "fr-ilevia"
         },
 
         {
             "type": "real-time-alerts",
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-alerts",
             "feedId": "fr-ametis"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-trip-update",
             "feedId": "fr-ametis"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-vehicle-position",
             "feedId": "fr-ametis"
         },
