@@ -255,8 +255,8 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/eff9558e-4575-429f-bbe1-0cd37f1e6432",
-        "feedId": "fr-villeo-resteo",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/39bc7064-a387-4eef-9fb3-05fe3c00782b",
+        "feedId": "fr-villeo-retzeo",
         "reference": "https://transport.data.gouv.fr/datasets/donnees-de-mobilite"
     },
     {
@@ -1621,12 +1621,6 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/b38a8202-1d7e-4345-964c-f07a335ea90b",
-        "feedId": "fr-mio",
-        "reference": "https://transport.data.gouv.fr/datasets/fiches-horaires-reseau-urbain-mio-ccmillaugrandscausses"
-    },
-    {
-        "type": "gtfs",
         "source": "https://www.data.gouv.fr/fr/datasets/r/0163a7b9-f4b1-4d9b-9af1-dcc0e583c3b4",
         "feedId": "fr-tub-occitanie",
         "reference": "https://transport.data.gouv.fr/datasets/fiches-horaires-reseau-urbain-mio-ccmillaugrandscausses"
@@ -1998,15 +1992,9 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/a67da149-19bc-445d-b2d3-855fd82aa240",
-        "feedId": "fr-navette-saint-cyr",
+        "source": "https://www.datasud.fr/fr/dataset/datasets/4682/resource/6530/download/",
+        "feedId": "fr-sud-ste-baume",
         "reference": "https://transport.data.gouv.fr/datasets/transports-urbains-st-cyr-s-mer"
-    },
-    {
-        "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/358ab51c-78e8-45a4-ae5a-a05722af6c09",
-        "feedId": "fr-sanary",
-        "reference": "https://transport.data.gouv.fr/datasets/transports-urbains-bandol-sanary-s-mer"
     },
     {
         "type": "gtfs",
