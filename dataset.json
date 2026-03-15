@@ -255,8 +255,8 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/eff9558e-4575-429f-bbe1-0cd37f1e6432",
-        "feedId": "fr-villeo-resteo",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/39bc7064-a387-4eef-9fb3-05fe3c00782b",
+        "feedId": "fr-villeo-retzeo",
         "reference": "https://transport.data.gouv.fr/datasets/donnees-de-mobilite"
     },
     {
@@ -574,26 +574,38 @@
         "feedId": "fr-rezo",
         "reference": "https://transitous.org/sources/"
     },
+    
+    
+    
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_giverny-vernon-gare-sncf.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=SNGO&dataFormat=gtfs",
         "feedId": "fr-sngo",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
-
-
-
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_nomad-car-region-normandie.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=SngoNavetteGiverny&dataFormat=gtfs",
+        "feedId": "fr-sngo",
+        "reference": "https://atoumod.fr"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=NOMAD&dataFormat=gtfs",
         "feedId": "fr-nomad-car",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_bacs-de-seine-departement-seine-maritime.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=NOMADCARREGION&dataFormat=gtfs",
+        "feedId": "fr-nomad-car",
+        "reference": "https://atoumod.fr"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=SEINEMARITIME76&dataFormat=gtfs",
         "feedId": "fr-bacs-de-seine",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
@@ -603,9 +615,9 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_reseau-de-transport-en-commun-lia-gtfs-siri.gtfs.zip",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/1e666e24-58ee-46b9-8952-ea2755ba88f2",
         "feedId": "fr-lia",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-de-transport-en-commun-lia-gtfs-siri"
     },
     {
         "type": "gtfs",
@@ -615,15 +627,21 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/ec78df83-2e60-4284-acc3-86a0baa76bf0",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=TRANSURBAIN&dataFormat=gtfs",
         "feedId": "fr-transurbain",
-        "reference": "https://transport.data.gouv.fr/datasets/transurbain-evreux-portes-de-normandie"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_semo-val-de-reuil-louviers-seine-eure-agglo.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=SEMO&dataFormat=gtfs",
         "feedId": "fr-semo",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=ALTOBUS&dataFormat=gtfs",
+        "feedId": "fr-altobus",
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
@@ -633,92 +651,98 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_astrobus-lisieux-normandie.gtfs.zip",
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=astrobus",
         "feedId": "fr-astrobus",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://zenbus.net"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-du-reseau-urbain-de-flers-agglo-au-format-gtfs.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=NEMUS&dataFormat=gtfs",
         "feedId": "fr-nemus",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/api/1/datasets/r/30c460a3-77f7-4ae7-8dfa-4d87cfc2a5f4",
-        "feedId": "fr-lbus",
-        "reference": "https://transport.data.gouv.fr/datasets/reseau-transport-urbain-de-bernay"
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=bernay",
+        "feedId": "fr-ibus",
+        "reference": "https://zenbus.net"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_argentanbus-argentan-intercom.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=ARGENTANBUS&dataFormat=gtfs",
         "feedId": "fr-argentan",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_cosibus-coutances-mer-et-bocage.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=COSIBUS&dataFormat=gtfs",
         "feedId": "fr-cosibus",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_tiva-intercom-de-la-vire-au-noireau.gtfs.zip",
-        "feedId": "fr-amibus",
-        "reference": "https://transitous.org/sources/"
+        "source": "https://transport.data.gouv.fr/resources/83846/download",
+        "feedId": "fr-tiva",
+        "reference": "https://transport.data.gouv.fr/datasets/tiva-urbain-reseau-urbain-a-vire-intercom-de-la-vire-au-noireau-2025-2026"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_neva-granville-terre-et-mer.gtfs.zip",
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=granville",
         "feedId": "fr-neva",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://zenbus.net"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_deepmob-dieppe-maritime.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=DEEPMOB&dataFormat=gtfs",
         "feedId": "fr-deepmob",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_ficibus-fecamp-caux-littoral.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=FICIBUS&dataFormat=gtfs",
         "feedId": "fr-ficibus",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_le-bus-pont-audemer-val-de-risle.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=LEBUS&dataFormat=gtfs",
         "feedId": "fr-lebus-normandie",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_hobus-honfleur.gtfs.zip",
+        "source": "https://app.pysae.com/api/v4/groups/hobus/gtfs/pub",
         "feedId": "fr-hobus",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://pysae.com"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_vikibus-yvetot-normandie.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=VIKIBUS&dataFormat=gtfs",
         "feedId": "fr-vikibus",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_moca-communaute-de-communes-caux-austreberthe.gtfs.zip",
+        "source": "https://app.pysae.com/api/v4/groups/moca/gtfs/pub",
         "feedId": "fr-moca",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://pysae.com"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_bagnoles-de-lorne.gtfs.zip",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=BAGNOLES&dataFormat=gtfs",
         "feedId": "fr-bagnoles",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://atoumod.fr"
     },
     {
         "type": "gtfs",
         "source": "https://app.pysae.com/api/v4/groups/transdev-cotentin/gtfs/pub",
         "feedId": "fr-capcotentin",
+        "reference": "https://pysae.com"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=SLAM&dataFormat=gtfs",
+        "feedId": "fr-slam",
         "reference": "https://pysae.com"
     },
 
@@ -1597,12 +1621,6 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/b38a8202-1d7e-4345-964c-f07a335ea90b",
-        "feedId": "fr-mio",
-        "reference": "https://transport.data.gouv.fr/datasets/fiches-horaires-reseau-urbain-mio-ccmillaugrandscausses"
-    },
-    {
-        "type": "gtfs",
         "source": "https://www.data.gouv.fr/fr/datasets/r/0163a7b9-f4b1-4d9b-9af1-dcc0e583c3b4",
         "feedId": "fr-tub-occitanie",
         "reference": "https://transport.data.gouv.fr/datasets/fiches-horaires-reseau-urbain-mio-ccmillaugrandscausses"
@@ -1974,15 +1992,9 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/a67da149-19bc-445d-b2d3-855fd82aa240",
-        "feedId": "fr-navette-saint-cyr",
+        "source": "https://www.datasud.fr/fr/dataset/datasets/4682/resource/6530/download/",
+        "feedId": "fr-sud-ste-baume",
         "reference": "https://transport.data.gouv.fr/datasets/transports-urbains-st-cyr-s-mer"
-    },
-    {
-        "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/358ab51c-78e8-45a4-ae5a-a05722af6c09",
-        "feedId": "fr-sanary",
-        "reference": "https://transport.data.gouv.fr/datasets/transports-urbains-bandol-sanary-s-mer"
     },
     {
         "type": "gtfs",

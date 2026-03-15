@@ -56,27 +56,27 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://proxy.transport.data.gouv.fr/resource/ilevia-lille-gtfs-rt",
             "feedId": "fr-ilevia"
         },
 
         {
             "type": "real-time-alerts",
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-alerts",
             "feedId": "fr-ametis"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-trip-update",
             "feedId": "fr-ametis"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-vehicle-position",
             "feedId": "fr-ametis"
         },
@@ -561,13 +561,6 @@
             "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TCAR&dataFormat=gtfs-rt",
             "feedId": "fr-astuce"
         },
-        {   
-            "type": "stop_time_updater",
-            "fuzzyTripMatching": true,
-            "frequency": "30s",
-            "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TAE&dataFormat=gtfs-rt",
-            "feedId": "fr-astuce"
-        },
         {
             "type": "vehicle-positions",
             "frequency": "30s",
@@ -582,8 +575,8 @@
         },
         {
             "type": "real-time-alerts",
-            "frequency": "5m",
-            "url": "https://gtfs.flocaseih.me/service_alerts.pb",
+            "frequency": "1m",
+            "url": "https://hexatransit.fr/datasets/services_rt/astuce/service_alerts.pb",
             "feedId": "fr-astuce"
         },
 
@@ -591,6 +584,60 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=SEMO&dataFormat=gtfs-rt",
+            "feedId": "fr-semo"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=SEMO&dataFormat=gtfs-rt",
+            "feedId": "fr-semo"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "30s",
+            "url": "https://proxy.transport.data.gouv.fr/resource/seine-eure-semo-gtfs-rt-alerts",
+            "feedId": "fr-semo"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=TRANSURBAIN&dataFormat=gtfs-rt",
+            "feedId": "fr-transurbain"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TRANSURBAIN&dataFormat=gtfs-rt",
+            "feedId": "fr-transurbain"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "30s",
+            "url": "https://proxy.transport.data.gouv.fr/resource/transurbain-evreux-gtfs-rt-service-alert",
+            "feedId": "fr-transurbain"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=ALTOBUS&dataFormat=gtfs-rt",
+            "feedId": "fr-altobus"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=ALTOBUS&dataFormat=gtfs-rt",
+            "feedId": "fr-altobus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
             "url": "https://app.pysae.com/api/v4/groups/transdev-cotentin/gtfs-rt",
             "feedId": "fr-capcotentin"
         },
@@ -603,119 +650,168 @@
 
         {
             "type": "real-time-alerts",
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt",
             "feedId": "fr-rezobus"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt",
             "feedId": "fr-rezobus"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt",
-            "feedId": "fr-rezobuss"
+            "feedId": "fr-rezobus"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/astrobus-lisieux-gtfs-rt-trip-update",
+            "frequency": "30s",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=astrobus",
             "feedId": "fr-astrobus"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/astrobus-lisieux-gtfs-rt-vehicle-position",
+            "frequency": "30s",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=astrobus",
+            "feedId": "fr-astrobus"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "30s",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=astrobus",
             "feedId": "fr-astrobus"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/sngo-vernon-gtfs-rt-trip-update",
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=SNGO&dataFormat=gtfs-rt",
+            "feedId": "fr-sngo"
+        },
+        {
+            "type": "vehicle-positions",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=SNGO&dataFormat=gtfs-rt",
+            "feedId": "fr-sngo"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=SngoNavetteGiverny&dataFormat=gtfs-rt",
+            "feedId": "fr-sngo"
+        },
+        {
+            "type": "vehicle-positions",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=SngoNavetteGiverny&dataFormat=gtfs-rt",
             "feedId": "fr-sngo"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/flers-nemus-gtfs-rt-trip-update",
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=NEMUS&dataFormat=gtfs-rt",
             "feedId": "fr-nemus"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/flers-nemus-gtfs-rt-vehicle-position",
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=NEMUS&dataFormat=gtfs-rt",
             "feedId": "fr-nemus"
         },
 
         {
             "type": "real-time-alerts",
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=bernay",
-            "feedId": "fr-lbus"
+            "feedId": "fr-ibus"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=bernay",
-            "feedId": "fr-lbus"
+            "feedId": "fr-ibus"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=bernay",
-            "feedId": "fr-lbus"
+            "feedId": "fr-ibus"
         },
 
         {
             "type": "real-time-alerts",
-            "frequency": "2m",
-            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=granville",
+            "frequency": "30s",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=granville",
             "feedId": "fr-neva"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=granville",
+            "frequency": "30s",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=granville",
             "feedId": "fr-neva"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=granville",
+            "frequency": "30s",
+            "url": "https://zenbus.net/gtfs/rt/poll.proto?src=true&dataset=granville",
             "feedId": "fr-neva"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/deepmob-dieppe-gtfs-rt-trip-update",
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=DEEPMOB&dataFormat=gtfs-rt",
+            "feedId": "fr-deepmob"
+        },
+        {
+            "type": "vehicle-positions",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=DEEPMOB&dataFormat=gtfs-rt",
             "feedId": "fr-deepmob"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/hobus-honfleur-gtfs-rt-trip-update",
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=FICIBUS&dataFormat=gtfs-rt",
+            "feedId": "fr-ficibus"
+        },
+        {
+            "type": "vehicle-positions",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=FICIBUS&dataFormat=gtfs-rt",
+            "feedId": "fr-ficibus"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://app.pysae.com/api/v4/groups/hobus/gtfs-rt",
             "feedId": "fr-hobus"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/hobus-honfleur-gtfs-rt-vehicle-position",
+            "frequency": "30s",
+            "url": "https://app.pysae.com/api/v4/groups/hobus/gtfs-rt",
             "feedId": "fr-hobus"
         },
 
