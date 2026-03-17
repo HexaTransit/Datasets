@@ -681,9 +681,9 @@
     },
     {
         "type": "gtfs",
-        "source": "https://transport.data.gouv.fr/resources/83846/download",
+        "source": "https://gtfs.bus-tracker.fr/vire-normandie.zip",
         "feedId": "fr-tiva",
-        "reference": "https://transport.data.gouv.fr/datasets/tiva-urbain-reseau-urbain-a-vire-intercom-de-la-vire-au-noireau-2025-2026"
+        "reference": "https://bus-tracker.fr"
     },
     {
         "type": "gtfs",
