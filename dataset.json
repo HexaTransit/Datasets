@@ -586,7 +586,7 @@
     {
         "type": "gtfs",
         "source": "https://api.atm.cityway.fr/dataflow/offre-tc/download?provider=SngoNavetteGiverny&dataFormat=gtfs",
-        "feedId": "fr-sngo",
+        "feedId": "fr-sngo-giverny",
         "reference": "https://atoumod.fr"
     },
     {
