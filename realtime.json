@@ -707,14 +707,14 @@
             "fuzzyTripMatching": true,
             "frequency": "30s",
             "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=SngoNavetteGiverny&dataFormat=gtfs-rt",
-            "feedId": "fr-sngo"
+            "feedId": "fr-sngo-giverny"
         },
         {
             "type": "vehicle-positions",
             "fuzzyTripMatching": true,
             "frequency": "30s",
             "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=SngoNavetteGiverny&dataFormat=gtfs-rt",
-            "feedId": "fr-sngo"
+            "feedId": "fr-sngo-giverny"
         },
 
         {
