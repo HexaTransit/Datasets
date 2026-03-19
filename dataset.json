@@ -1519,6 +1519,12 @@
     },
     {
         "type": "gtfs",
+        "source": "https://app.mecatran.com/utw/ws/gtfsfeed/static/lio?apiKey=2b160d626f783808095373766f18714901325e45&type=gtfs_lio",
+        "feedId": "fr-lio",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-lio-occitanie"
+    }
+    {
+        "type": "gtfs",
         "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs.gtfs.zip",
         "feedId": "fr-alesy",
         "reference": "https://transitous.org/sources/"
