@@ -1690,7 +1690,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.itinisere.fr/fr/donnees-open-data/169/OpenData/Download?fileName=CG38.GTFS.zip",
+        "source": "https://api.oura3.cityway.fr/dataflow/offre-tc/download?provider=ISERE&dataFormat=gtfs",
         "feedId": "fr-isere",
         "reference": "https://transport.data.gouv.fr/datasets/reseau-cars-region-isere-38"
     },
