@@ -1193,8 +1193,15 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://ara-api.enroute.mobi/tao/gtfs/trip-updates",
+            "feedId": "fr-tao"
+        },
+        {
+            "type": "vehicle-positions",
+            "fuzzyTripMatching": true,
+            "frequency": "1m",
+            "url": "https://ara-api.enroute.mobi/tao/gtfs/vehicle-positions",
             "feedId": "fr-tao"
         },
 
