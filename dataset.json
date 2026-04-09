@@ -1038,8 +1038,8 @@
         "reference": "https://transport.data.gouv.fr/datasets/gtfs-netex-et-gtfs-rt-reseau-tao-orleans-metropole"
     },
     {
-        "type": "gtfs-flex",
-        "source": "https://api.transitous.org/gtfs/fr_gtfs-netex-et-gtfs-rt-reseau-tao-orleans-metropole.gtfs.zip",
+        "type": "gtfs",
+        "source": "https://data.orleans-metropole.fr/api/v2/catalog/datasets/om-mobilite-tao-tad-gtfsflex/alternative_exports/gtfs_flex_tao_012026_062026_zip",
         "feedId": "fr-tao-tad",
         "reference": "https://transport.data.gouv.fr/datasets/description-de-loffre-tad-tao-gtfs-flex-orleans-metropole"
     },
