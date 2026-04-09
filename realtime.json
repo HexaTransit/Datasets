@@ -1649,16 +1649,10 @@
         },
 
         {
-            "type": "real-time-alerts",
-            "frequency": "2m",
-            "url": "https://www.itinisere.fr/ftp/gtfsrt/GtfsRT.Disruptions.CG38.pb",
-            "feedId": "fr-isere"
-        },
-        {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://www.itinisere.fr/ftp/GtfsRT/GtfsRT.CG38.pb",
+            "url": "https://api.oura3.cityway.fr/dataflow/horaire-tr/download?provider=ISERE&dataFormat=GTFS-RT&dataProfil=OPENDATA",
             "feedId": "fr-isere"
         },
 
