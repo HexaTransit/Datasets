@@ -615,7 +615,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/api/1/datasets/r/1e666e24-58ee-46b9-8952-ea2755ba88f2",
+        "source": "https://opendata.transports-lia.fr/gtfs/GTFS.zip",
         "feedId": "fr-lia",
         "reference": "https://transport.data.gouv.fr/datasets/reseau-de-transport-en-commun-lia-gtfs-siri"
     },
