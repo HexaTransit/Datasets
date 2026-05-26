@@ -4,7 +4,7 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "30s",
-            "url": "http://gtfsidfm.clarifygdps.com/gtfs-rt-trips-idfm",
+            "url": "http://gtfsidfm.clarifygdps.com/gtfs-rt-platforms-idfm",
             "feedId": "fr-idf"
         },
         {
