@@ -624,20 +624,6 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "30s",
-            "url": "https://api.atm.cityway.fr/dataflow/horaire-tc-tr/download?provider=ALTOBUS&dataFormat=gtfs-rt",
-            "feedId": "fr-altobus"
-        },
-        {
-            "type": "vehicle-positions",
-            "frequency": "30s",
-            "url": "https://api.atm.cityway.fr/dataflow/vehicule-tc-tr/download?provider=ALTOBUS&dataFormat=gtfs-rt",
-            "feedId": "fr-altobus"
-        },
-
-        {
-            "type": "stop_time_updater",
-            "fuzzyTripMatching": true,
-            "frequency": "30s",
             "url": "https://app.pysae.com/api/v4/groups/transdev-cotentin/gtfs-rt",
             "feedId": "fr-capcotentin"
         },
