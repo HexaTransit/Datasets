@@ -88,6 +88,12 @@
             "feedId": "fr-tisseo"
         },
         {
+            "type": "stop_time_updater",
+            "frequency": "30s",
+            "url": "https://gtfs.willbrooks.fr/trip_updates.json",
+            "feedId": "fr-tisseo"
+        },
+        {
             "type": "real-time-alerts",
             "frequency": "5s",
             "url": "https://api.tisseo.fr/opendata/gtfsrt/Alert.pb",
