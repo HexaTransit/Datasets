@@ -90,7 +90,7 @@
         {
             "type": "stop_time_updater",
             "frequency": "30s",
-            "url": "https://gtfs.willbrooks.fr/trip_updates.json",
+            "url": "https://gtfs.willbrooks.fr/trip_updates.pb",
             "feedId": "fr-tisseo"
         },
         {
