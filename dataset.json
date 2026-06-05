@@ -910,9 +910,9 @@
 
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_horaires-des-bacs-de-loire-en-loire-atlantique-gtfs--83727.gtfs.zip",
+        "source": "https://data.loire-atlantique.fr/api/v2/catalog/datasets/224400028_horaires-bacs-loire-en-loire-atlantique-gtfs/alternative_exports/gtfs_bac_loire2026_zip",
         "feedId": "fr-bacs-de-loire",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-des-bacs-de-loire-en-loire-atlantique-gtfs/"
     },
     {
         "type": "gtfs",
@@ -2058,9 +2058,9 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_navette-chorges-chanteloube-ete-2025-reseau-vai.gtfs.zip",
-        "feedId": "fr-vai",
-        "reference": "https://transitous.org/sources/"
+        "source": "https://transport.data.gouv.fr/resources/84030/download?token=fPqZ-hbjxPj2wApB8E3nEEqdHZi78ZBUkp37IpoaDOM",
+        "feedId": "fr-vai-ete",
+        "reference": "https://transport.data.gouv.fr/datasets/navette-chorges-chanteloube-ete-2026-reseau-vai"
     },
     {
         "type": "gtfs",
